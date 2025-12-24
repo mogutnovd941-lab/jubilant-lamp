@@ -16,7 +16,7 @@ public class Mage {
     }
 
     String fight(Mage mage) {
-        if (this.type.equals("fire") && mage.type.equals("ice")) return this.name;
+        if (this.type.equals("fire") && mage.type.equals("iceе")) return this.name;
         else if (this.type.equals("earth") && mage.type.equals("fire")) return this.name;
         else if (this.type.equals("ice") && mage.type.equals("earth")) return this.name;
         else if (this.type.equals(mage.type)) return this.name;
